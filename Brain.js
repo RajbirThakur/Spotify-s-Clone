@@ -79,17 +79,17 @@ btn = document.getElementById('btn-2');
 btn.addEventListener('click',()=>{
     if(t==null && temp==null)
     {
-        btn.href = "SOURCE.html";
+        btn.href = "index.html";
         alert("Please Choose a language and a genere");
     }
     else if(t==null && temp!=null)
     {
-        btn.href = "SOURCE.html";
+        btn.href = "index.html";
         alert("Please Choose a genere");
     }
     else if(t!=null && temp==null)
     {
-        btn.href = "SOURCE.html";
+        btn.href = "index.html";
         alert("Please Choose a Language");
     }
     else
